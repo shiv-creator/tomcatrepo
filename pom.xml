@@ -44,10 +44,11 @@
 	<version>2.2</version>
 	<configuration>
 		<hostname>192.168.1.50</hostname>
+		<url>http://192.168.1.50:8080/webapps/Hello</url>
         	<port>8080</port>  
 		<username>jenkins</username>
         	<password>jenkins</password>
-		<warFile>/usr/local/tomcat9/webapps</warFile>
+		<warFile>webapps</warFile>
          </configuration>
    </plugin>
         </plugins>
