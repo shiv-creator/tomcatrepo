@@ -47,7 +47,7 @@
         	<port>8080</port>  
 		<username>jenkins</username>
         	<password>jenkins</password>
-		<warFile>/usr/local/tomcat9/webapps<warFile>
+		<warFile>/usr/local/tomcat9/webapps</warFile>
          </configuration>
    </plugin>
         </plugins>
