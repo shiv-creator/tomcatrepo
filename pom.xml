@@ -26,10 +26,9 @@
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.2</version>
 	<configuration>  
-		<url>http://localhost:8080/manager/test</url>
+		<url>http://192.168.1.48:8070/manager/html</url>
 		<username>manager</username>
         	<password>root</password>
-		<warFile>/myapp</warFile>
     </configuration>
    </plugin>
   </plugins>
