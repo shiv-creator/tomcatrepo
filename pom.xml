@@ -26,14 +26,15 @@
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.2</version>
 	<configuration>
-		<url>http://192.168.1.50:8080/webapps</url>
-        	<port>8080</port>  
+        	<host>192.168.1.50</host>
+		<port>8080</port>  
+		<url>http://192.168.1.50:8080/manager/html</url>
 		<username>jenkins</username>
         	<password>jenkins</password>
 		<warFile>/webapps</warFile>
-         </configuration>
+    </configuration>
    </plugin>
-        </plugins>
+  </plugins>
     <finalName>Hello</finalName>
 </build>
 </project>
