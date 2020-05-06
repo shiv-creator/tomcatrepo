@@ -33,6 +33,6 @@
     </configuration>
    </plugin>
   </plugins>
-    <finalName>Hello</finalName>
+    <finalName>hello</finalName>
 </build>
 </project>
