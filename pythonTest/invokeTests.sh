@@ -1,2 +1,2 @@
-export PATH=$PATH:/usr/loca/bin/geckodriver/
+export PATH=$PATH:/usr/loca/bin/
 /usr/bin/python ./ProjectTest.py
