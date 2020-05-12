@@ -8,7 +8,7 @@ driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver',options=
 
 #driver = webdriver.Firefox(firefox_options=options);
 
-driver.get("http://192.168.1.48:8070/hello/index.html")
-assert "Hedllo Index" in driver.title
+driver.get("http://slave1:8070/hello/index.html")
+assert "Hello Index" in driver.title
 
 driver.close()
